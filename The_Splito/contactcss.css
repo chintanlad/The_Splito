@@ -1,0 +1,296 @@
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #333;
+    height: 108px;
+    text-align: center;
+    font-size: 27px;
+  }
+
+
+  .navi{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+
+.log ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  .navleft{
+    background-color: #333;
+    /* color: #333; */
+  
+  
+  }
+  .logo{height: 108px;
+    width: 200px;
+    
+  }
+  
+  
+  /* For login button...*/
+  
+  .login .login-form button,
+  .login .login-form input[type=submit] {
+      display: inline-block;
+      width: 100%;
+      margin-top: 5px;
+      color: #2aa15f;
+      font-size: 16px;
+      letter-spacing: 1px;
+      cursor: pointer;
+      background: transparent;
+      border: 1px solid #2aa15f;
+      /* border-radius: 30px; */
+      box-shadow: inset 0 0 0 0 #2aa15f;
+      transition: .3s;
+  }
+  
+  
+  .login .login-form input[type=submit]:hover {
+      color: #ffffff;
+      box-shadow: inset 250px 0 0 0 #2aa15f;
+     
+  }
+  
+  .login .login-form button:hover
+  {
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    display: inline-block;
+    font-family: poppins;
+    padding: 11px 29px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid #ffffff;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    transition: .3s;
+    margin-left: 16px;
+    margin-top: 6px;
+    background-color: #1593d1;
+  }
+  
+  .btn:hover {
+    color: #057838;
+    box-shadow: inset 150px 0 0 0 #ffffff;
+  }
+  
+  /* button end */
+  
+  
+  
+  /* background image start */
+  
+  /* .bgimage{
+    Background pattern from Toptal Subtle Patterns
+    background: linear-gradient(rgba(66, 63, 63, 0.8),rgb(71, 68, 68,0.8)),url(images/puzzle-2500328_1920.jpg);
+    height: 100vh;
+    width: 100%;
+    color: #ffffff;
+    z-index: -1;
+    margin-bottom: -50px;
+  }
+   */
+  
+  /* background image end */
+  
+  
+  body{
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(66, 63, 63, 0.8),rgb(71, 68, 68,0.8)),url(images/puzzle-2500328_1920.jpg);
+    height: 100vh;
+    width: 100%;
+    color: #ffffff;
+    z-index: -1;
+    margin-bottom: -50px;
+  }
+  
+  
+  
+  /* log start */
+  
+  /* .log { */
+    /* margin-left: 477px;
+    margin-right: 200;
+    margin-top: -642px;
+    padding-top: 213px;
+    padding-bottom: 229px;
+    z-index: 100; */
+    .log {
+        background-color: #ffffff;
+        position: relative;
+        margin-top: 113px;
+        height: 269px;
+        max-width: 639px;
+        margin-left: 429px;
+        padding: 28px;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+    .logo .round {
+        height: 200px;
+        width: 200px;
+        position: relative;
+        background-color: transparent;
+        border-radius: 50%;
+        margin-left: 142px;
+        margin-top: -539px;
+        margin-bottom: 379px;
+        
+        
+      }
+      .box-img {
+        margin-top: 25px;
+        border-radius: 50%;
+        width: 169px;
+        height: 169px;
+    
+    }
+    .text{
+        font-family: sans-serif;
+        text-align: justify;
+    }
+      .logoimg {
+        height: 200px;
+        width: 200px;
+        border-radius: 350px;
+        /* margin-left: 506px;
+        margin-top: -168px; */
+      }
+
+  .contact{
+    background: #f1f4ed;
+  }
+  
+  .textfeild{
+    height: 50px;
+    padding-left: 2rem;
+    border-radius: 25px;
+    border: none;
+    width: 88%;
+    font-size: 1rem;
+  }
+  .primaryBtn{
+    border-radius: 25px;
+    height: 50px;
+    border: none;
+    background-color: #fad610;
+    width: 63%;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    cursor: pointer;
+  }
+  .round {
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-left: 142px;
+    margin-top: -539px;
+    margin-bottom: 379px;
+    
+    
+  }
+  
+  
+  .logoimg {
+    height: 200px;
+    width: 200px;
+    border-radius: 350px;
+    margin-left: 506px;
+    margin-top: -168px;
+  }
+  
+  
+  
+  .textcss{
+    margin-top: 142px;
+  margin-bottom: 20px;
+  margin-left: 90px;
+  margin-right: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #f1f4ed;
+  font-size: 23px;
+  
+  }
+  
+  
+  
+  .spimg{
+    height: 293px;
+  width: 422px;
+  margin-top: 90px;
+  margin-left: 120px;
+  }
+  
+  
+  
+  .contact{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+  }
+  
+  
+  .bgimage{
+    padding: auto;
+  }
+  
+  
+  .cont{
+  margin-left: 477px;
+  margin-right: 200;
+  margin-top: -642px;
+  padding-top: 213px;
+  padding-bottom: 229px;
+  /* background-color: #ffffff; */
+  position: relative;
+  max-width: 552px;
+  padding: 28px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  }
